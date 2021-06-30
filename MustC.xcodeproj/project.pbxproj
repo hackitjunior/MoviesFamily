@@ -21,8 +21,8 @@
 		F208C06F268A48C300E9B23F /* MovieDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208C06E268A48C200E9B23F /* MovieDBHelper.swift */; };
 		F208C073268A4D3E00E9B23F /* MovieDBResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208C072268A4D3E00E9B23F /* MovieDBResponse.swift */; };
 		F24A6B3C268CD0CC00399613 /* SecretCredentials.stencil in Resources */ = {isa = PBXBuildFile; fileRef = F24A6B3B268CD0CC00399613 /* SecretCredentials.stencil */; };
-		F24A6B3F268CD1A300399613 /* env-vars.sh in Resources */ = {isa = PBXBuildFile; fileRef = F24A6B3E268CD1A300399613 /* env-vars.sh */; };
 		F24A6B4A268CD73500399613 /* SecretCredentials.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A6B49268CD73500399613 /* SecretCredentials.generated.swift */; };
+		F24A6B4E268CDFE000399613 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F24A6B4D268CDFE000399613 /* README.md */; };
 		F29CE7052688392700A4BD4F /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CE7042688392700A4BD4F /* NSPersistentContainer.swift */; };
 		F29CE70A26883BB800A4BD4F /* PersistentContainerRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CE70926883BB800A4BD4F /* PersistentContainerRequiring.swift */; };
 		F29CE70F26883E8400A4BD4F /* MustC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29CE70D26883E8400A4BD4F /* MustC.xcdatamodeld */; };
@@ -52,8 +52,8 @@
 		F208C06E268A48C200E9B23F /* MovieDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBHelper.swift; sourceTree = "<group>"; };
 		F208C072268A4D3E00E9B23F /* MovieDBResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBResponse.swift; sourceTree = "<group>"; };
 		F24A6B3B268CD0CC00399613 /* SecretCredentials.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecretCredentials.stencil; sourceTree = "<group>"; };
-		F24A6B3E268CD1A300399613 /* env-vars.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "env-vars.sh"; sourceTree = "<group>"; };
 		F24A6B49268CD73500399613 /* SecretCredentials.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretCredentials.generated.swift; sourceTree = "<group>"; };
+		F24A6B4D268CDFE000399613 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F29CE7042688392700A4BD4F /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
 		F29CE70926883BB800A4BD4F /* PersistentContainerRequiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainerRequiring.swift; sourceTree = "<group>"; };
 		F29CE70E26883E8400A4BD4F /* MustC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MustC.xcdatamodel; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		97A5DDD121066673002FB912 = {
 			isa = PBXGroup;
 			children = (
-				F24A6B3E268CD1A300399613 /* env-vars.sh */,
+				F24A6B4D268CDFE000399613 /* README.md */,
 				F29CE711268845EC00A4BD4F /* FamilyMember+CoreDataClass.swift */,
 				F29CE712268845EC00A4BD4F /* FamilyMember+CoreDataProperties.swift */,
 				F29CE713268845EC00A4BD4F /* Movie+CoreDataClass.swift */,
@@ -253,7 +253,7 @@
 			files = (
 				97A5DDE821066675002FB912 /* LaunchScreen.storyboard in Resources */,
 				F24A6B3C268CD0CC00399613 /* SecretCredentials.stencil in Resources */,
-				F24A6B3F268CD1A300399613 /* env-vars.sh in Resources */,
+				F24A6B4E268CDFE000399613 /* README.md in Resources */,
 				97A5DDE521066675002FB912 /* Assets.xcassets in Resources */,
 				97A5DDE321066674002FB912 /* Main.storyboard in Resources */,
 			);
