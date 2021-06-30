@@ -1,0 +1,4 @@
+/env-vars.sh
+
+Pods/
+**/Generated/
