@@ -17,6 +17,8 @@
 		97A5DDF621066782002FB912 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5DDF521066782002FB912 /* MoviesViewController.swift */; };
 		97A5DDF8210667A6002FB912 /* AddFamilyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5DDF7210667A6002FB912 /* AddFamilyMemberViewController.swift */; };
 		97A5DDFA210667BD002FB912 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5DDF9210667BD002FB912 /* AddMovieViewController.swift */; };
+		F208C06F268A48C300E9B23F /* MovieDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208C06E268A48C200E9B23F /* MovieDBHelper.swift */; };
+		F208C073268A4D3E00E9B23F /* MovieDBResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208C072268A4D3E00E9B23F /* MovieDBResponse.swift */; };
 		F29CE7052688392700A4BD4F /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CE7042688392700A4BD4F /* NSPersistentContainer.swift */; };
 		F29CE70A26883BB800A4BD4F /* PersistentContainerRequiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CE70926883BB800A4BD4F /* PersistentContainerRequiring.swift */; };
 		F29CE70F26883E8400A4BD4F /* MustC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29CE70D26883E8400A4BD4F /* MustC.xcdatamodeld */; };
@@ -40,6 +42,8 @@
 		97A5DDF521066782002FB912 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		97A5DDF7210667A6002FB912 /* AddFamilyMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFamilyMemberViewController.swift; sourceTree = "<group>"; };
 		97A5DDF9210667BD002FB912 /* AddMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		F208C06E268A48C200E9B23F /* MovieDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBHelper.swift; sourceTree = "<group>"; };
+		F208C072268A4D3E00E9B23F /* MovieDBResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBResponse.swift; sourceTree = "<group>"; };
 		F29CE7042688392700A4BD4F /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
 		F29CE70926883BB800A4BD4F /* PersistentContainerRequiring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainerRequiring.swift; sourceTree = "<group>"; };
 		F29CE70E26883E8400A4BD4F /* MustC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MustC.xcdatamodel; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		97A5DDDC21066674002FB912 /* MustC */ = {
 			isa = PBXGroup;
 			children = (
+				F208C06D268A485900E9B23F /* Helper */,
 				F29CE7032688390F00A4BD4F /* Extensions */,
 				97A5DDF021066699002FB912 /* ViewControllers */,
 				97A5DDEF21066691002FB912 /* Protocols */,
@@ -116,6 +121,15 @@
 				97A5DDF9210667BD002FB912 /* AddMovieViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F208C06D268A485900E9B23F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F208C06E268A48C200E9B23F /* MovieDBHelper.swift */,
+				F208C072268A4D3E00E9B23F /* MovieDBResponse.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		F29CE7032688390F00A4BD4F /* Extensions */ = {
@@ -203,8 +217,10 @@
 				97A5DDE021066674002FB912 /* FamilyMembersViewController.swift in Sources */,
 				97A5DDF621066782002FB912 /* MoviesViewController.swift in Sources */,
 				97A5DDDE21066674002FB912 /* AppDelegate.swift in Sources */,
+				F208C06F268A48C300E9B23F /* MovieDBHelper.swift in Sources */,
 				F29CE71C2688475000A4BD4F /* NSManagedObjectContext.swift in Sources */,
 				F29CE7052688392700A4BD4F /* NSPersistentContainer.swift in Sources */,
+				F208C073268A4D3E00E9B23F /* MovieDBResponse.swift in Sources */,
 				F29CE717268845EC00A4BD4F /* Movie+CoreDataClass.swift in Sources */,
 				F29CE70F26883E8400A4BD4F /* MustC.xcdatamodeld in Sources */,
 				F29CE70A26883BB800A4BD4F /* PersistentContainerRequiring.swift in Sources */,
